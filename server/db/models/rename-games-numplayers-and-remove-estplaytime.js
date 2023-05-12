@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Cat extends Model {
+  class rename - games - numPlayers - and - remove - estPlayTime extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -13,13 +13,11 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Cat.init({
-    name: DataTypes.STRING,
-    weight: DataTypes.FLOAT,
-    age: DataTypes.FLOAT
+  rename - games - numPlayers - and - remove - estPlayTime.init({
+    numPlayers: DataTypes.INTEGER
   }, {
     sequelize,
-    modelName: 'Cat',
+    modelName: 'rename-games-numPlayers-and-remove-estPlayTime',
   });
-  return Cat;
+  return rename - games - numPlayers - and - remove - estPlayTime;
 };

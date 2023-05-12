@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Cat extends Model {
+  class add - unique - constraint - to - color - names extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -13,13 +13,11 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Cat.init({
-    name: DataTypes.STRING,
-    weight: DataTypes.FLOAT,
-    age: DataTypes.FLOAT
+  add - unique - constraint - to - color - names.init({
+    name: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Cat',
+    modelName: 'add-unique-constraint-to-color-names',
   });
-  return Cat;
+  return add - unique - constraint - to - color - names;
 };
